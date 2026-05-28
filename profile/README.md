@@ -1,29 +1,27 @@
 
-# Lab Big Data Analytics
+# Lab Big Data Analytics: RS Impact
 
-Bem-vindo ao  **Lab Big Data Analytics** . Este espaço centraliza os projetos de pesquisa, análise de dados e arquitetura de sistemas distribuídos desenvolvidos no contexto acadêmico e técnico da Estácio Aracaju.
+Este é o repositório oficial do projeto  **RS Impact** , uma iniciativa de análise de dados desenvolvida no curso de Análise e Desenvolvimento de Sistemas (ADS) da Estácio Aracaju.
 
-## Projetos Concluídos
+## Sobre o Projeto
 
-### 📈 [RS Impact](https://github.com/lucaspaiva-lp/rs-impact)
+O **RS Impact** analisa a resiliência econômica do Rio Grande do Sul pós-desastre de 2024. A pesquisa correlaciona microdados do CAGED (mercado de trabalho) com índices pluviométricos do INMET para identificar o *lag time* de recuperação e os impactos setoriais da catástrofe.
 
-Análise da resiliência econômica do Rio Grande do Sul frente aos desastres climáticos de 2024. O projeto cruzou microdados do CAGED (mercado de trabalho) com índices pluviométricos do INMET para identificar correlações, tempo de resposta ( *lag time* ) e impactos setoriais.
-
-* **Status:** Projeto concluído.
 * **Desenvolvedores:** Lucas Paiva Santos de Oliveira (@lucaspaiva-lp) e Rodrigo Moraes dos Santos (@RodrigoDevBack).
+* **Orientação:** Prof. Max Castor Rodrigues Junior.
+* **Status:** Concluído.
 
-## Estrutura de Governança dos Repositórios
+## Pipeline de Dados
 
-Para manter a consistência técnica, todos os projetos do laboratório seguem o padrão:
+O projeto segue um fluxo de trabalho estruturado para processamento de Big Data:
 
-* **`data/`** : Divisão entre `raw/` (imutável) e `processed/` (transformado).
-* **`src/`** : Código modularizado para ingestão, processamento e análise.
-* **`notebooks/`** : Ambientes de experimentação e prototipagem.
-* **`docs/`** : Documentação técnica, dicionários de dados e relatórios finais (ABNT).
+* **Ingestão:** Coleta automatizada de dados CAGED e relatórios pluviométricos.
+* **Transformação:** Limpeza, filtragem geográfica (RS) e padronização temporal.
+* **Análise:** Extração de correlações estatísticas entre eventos climáticos e flutuações de emprego.
 
 ## Stack Tecnológico
 
-Nossas pesquisas utilizam um ecossistema voltado para performance e escalabilidade:
+O desenvolvimento foi realizado com foco em performance e análise estatística:
 
 | **Categoria**         | **Tecnologias**               |
 | --------------------------- | ----------------------------------- |
